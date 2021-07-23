@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:restMockAction name="/test" method="GET" resourcePath="/test" id="19b96df9-8ba2-41fb-98cc-93ff9d6ae69b" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="b6e40973-6e49-41a5-83fb-684a88a333defileName">%2Ftest</con:setting>
+    <con:setting id="19b96df9-8ba2-41fb-98cc-93ff9d6ae69bfileName">%2Ftest</con:setting>
+  </con:settings>
+  <con:defaultResponse>Response 1</con:defaultResponse>
+  <con:dispatchStyle>SEQUENCE</con:dispatchStyle>
+  <con:dispatchConfig/>
+  <con:dispatchXPath/>
+  <con:routeScript/>
+  <con:response name="Response 1" id="0a7c035f-17c1-4878-b9eb-3db734115905" httpResponseStatus="200" mediaType="application/json" dataSource="" compressedBodyContent="aced00057372002f636f6d2e657669776172652e736f617075692e696d706c2e737570706f72742e436f6d7072657373656456616c7565000b8b02c748eeab0200025a000a636f6d707265737365645b0004646174617400025b4278700070">
+    <con:settings/>
+    <con:responseContent>{ "Hello" : "Wanda" }</con:responseContent>
+  </con:response>
+</con:restMockAction>
